@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR" style="scroll-behavior: smooth;">
+<head>
+  <title>Portfolio Gustavo Pinheiro</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body style="height: 100%;">
+
+  <!-- Header com navbar da página -->
+  <header class="header">
+    <div class="grid-layout">
+      <nav>
+        <h1 class="title">Pinheir0g</h1>
+        <ul>
+          <li><a href="#s-sobre">Sobre</a></li>
+          <li><a href="#s-sobre">Formação</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Section home com info gerais -->
+  <section id="s-home">
+    <div class="grid-layout">
+      <div>
+        <div class="home-content">
+          <h2>Olá, sou Gustavo Pinheiro</h2>
+          <p>Desenvolvedor Backend e QA Tester.</p>
+          <ul>
+            <a href="https://twitter.com/uaovp" target="_blank">
+              <li>
+                <img src="img/twitter-logo.png" alt="twitter">
+              </li>
+            </a>
+            <a href="https://github.com/pinheir0g" target="_blank">
+              <li>
+                <img style="width: 37px;" src="img/github-logo.png" alt="github">
+              </li>
+            </a>
+            <a href="https://www.linkedin.com/in/gustavo-pinheiro-049660261/" target="_blank">
+              <li>
+                <img src="img/linkedin-logo.png" alt="linkedin">
+              </li>
+            </a>
+          </ul>
+
+        </div>
+        <img id="img-home" src="img/avatar.jpg" alt="avatar pinheirog">
+      </div>
+    </div>
+  </section>
+
+  <!-- Section sobre mim e formação -->
+  <section id="s-sobre">
+    <div class="grid-layout">
+      <div>
+        <div class="sobre-content">
+          <h2>Sobre mim</h2>
+          <p>Me chamo Gustavo, tenho 25 anos, e venho dedicando há mais de um ano ao estudo de programação com foco em desenvolvimento Backend e Qualidade de Software. Possuo experiência em Python, Java, SQL, Flask, Selenium, entre outras. Atualmente, estou à procura de uma oportunidade para adquirir experiência prática, pois sou uma pessoa ávida por aprendizado e tenho a capacidade de me adaptar e crescer rapidamente em qualquer ambiente.
+          </p>
+        </div>
+        <div class="formacao">
+          <h2> Formação</h2>
+          <p>
+            Atualmente estou cursando Análise e Desenvolvimento de Sistemas no Centro Universitário Internacional Uninter com previsão de conclusão em Julho de 2025.
+          </p>
+          <div class="idiomas">
+            <h2>Idiomas</h2>
+            <p> Português - Nativo</p>
+            <p> Inglês - Intermediário</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section de Conhecimentos -->
+  <section id="s-skills">
+    <div class="grid-layout">
+      <div id="skills">
+        <div class="conhecimentos">
+          <h2> Conhecimentos </h2>
+          <div id="skills-cards">
+            <article>
+              <img src="img/python-logo.png" width="50px" alt="icone Python">
+              <h4>Python</h4>
+            </article>
+            <article>
+              <img src="img/selenium-logo.png" width="50px" alt="icone Selenium">
+              <h4 style="margin-top: 27px;">Selenium</h4>
+            </article>
+            <article>
+              <img src="img/flask-logo.png" width="50px" alt="icone Flask">
+              <h4 style="margin-top: 27px;">Flask</h4>
+            </article>
+            <article>
+              <img src="img/fastapi-logo.png" width="50px" alt="icone Linux">
+              <h4 style="margin-top: 27px;">FastAPI</h4>
+            </article>
+            <article>
+              <img src="img/linux-logo.png" width="50px" alt="icone Linux">
+              <h4 style="margin-top: 27px;">Linux</h4>
+            </article>
+            <article>
+              <img src="img/sql-logo.png" width="60px" alt="icone Linux">
+              <h4>SQL</h4>
+            </article>
+            <article>
+              <img src="img/html-logo.png" width="50px" alt="icone Linux">
+              <h4 style="margin-top: 27px;">HTML</h4>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer com form de contato -->
+  <footer id="contato">
+    <div class="grid-layout">
+      <h2>Entre em Contato</h2>
+      <div class="contact-form">
+        <form>
+          <div class="name-email-row">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required aria-label="Nome">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <label for="mensagem">Mensagem:</label>
+          <textarea id="mensagem" name="mensagem" rows="3" required></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

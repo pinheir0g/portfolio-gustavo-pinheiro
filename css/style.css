@@ -1,0 +1,347 @@
+/* Configurações gerais da página */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  color: white;
+  overflow-x: hidden;
+  font-family: "Archivo";
+}
+
+.grid-layout{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+div{
+  display: block;
+}
+
+section{
+  display: block;
+}
+
+/* Estilos do header com navbar */
+.header { 
+  display: block;   
+  padding: 0px 50px;
+  background: black;
+  width: 100%;
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+header .grid-layout nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100px;
+  padding: 0px 8px;
+}
+
+nav li,
+nav a{
+    display: inline;
+    margin-right: 20px;
+    text-decoration: none;
+    color: #9ca3af;
+    position: relative;
+    font-size: 1.3rem;
+}
+
+.title {
+  color: #9ca3af;
+  margin-left: 6px;
+}
+
+.navbar a{
+  display: inline;
+  margin: 10px;
+  padding: 5px;
+  text-decoration: none;
+  color: white;
+  background-color: orange;
+}
+/* fim header */
+
+/* Estilos section home */
+#s-home{
+  padding: 130px 0px;
+  background-color: #111;
+}
+
+#s-home .grid-layout>div{
+  padding: 4px 8px; 
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
+  flex-wrap: wrap;
+}
+
+.home-content{
+  width: 50%;
+  padding: 5px;
+  margin: 20px 0px 20px 0px; 
+  align-items: center;
+  font-size: 1.3rem;
+  color: #9ca3af;
+  line-height: 300%;
+  font-weight: 500;
+}
+
+.home-content h2{
+  color: #fff;
+}
+
+.home-content ul{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 35px;
+  margin-top: 20px;
+  width: fit-content;
+}
+
+.home-content li,
+.home-content a{
+  display: inline;
+  text-decoration: none;
+  color: #ffa500;
+  transition: color 0.3s;
+  align-items: center;
+}
+
+.home-content ul img{
+  width: 50px;
+  fill: none;
+}
+
+.home-content .link-form:hover{
+  color: #fff;
+}
+
+.grid-layout #img-home{
+  border-radius: 50%;
+  border: 3px solid orange;
+  height: 250px;
+  background-color: o;
+}
+/* Fim section home */
+
+/* Estilos section sobre mim e formação  */
+#s-sobre{
+  padding: 96px 48px;
+  background-color: #111;
+  width: 100%;
+  height: auto;
+  background-color: #151515;
+}
+
+#s-sobre .grid-layout>div{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: auto;
+}
+
+.sobre-content {
+  width: 50%;
+  padding: 5px;
+  line-height: 160%;
+  color: #9ca3af;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.sobre-content h2{
+  padding: 5px;
+  color: orange;
+}
+
+.sobre-content p{
+  display: block;
+  padding: 5px;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 1px;
+  text-align: justify;
+}
+
+.formacao{
+  width: 50%;
+  padding: 5px;
+  line-height: 160%;
+  color: #9ca3af;
+  display: flex;
+  flex-direction: column;
+}
+
+.formacao h2{
+  padding: 5px;
+  margin-inline-start:29px;
+  color: orange;
+}
+
+.formacao p {
+  padding: 5px;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 30px;
+  margin-inline-end: 1px;
+  text-align: justify;
+}
+
+.formacao .idiomas{
+  margin-block-start:0.6em;
+}
+
+.idiomas h2{
+  margin-top: 0;
+}
+
+.idiomas p{
+  margin:  auto;
+  margin-inline-start: 30px;
+  text-align: justify;
+}
+/* Fim section sobre */
+
+/* Estilos section conhecimentos */
+#s-skills{
+  padding: 100px 0px;
+  background-color: #111;
+}
+
+#s-skills .grid-layout #skills{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  height: auto;
+  padding: 20px;
+  background-color: #151515;
+  border: 3px solid #1f1f1f;
+}
+
+#s-skills .grid-layout #skills #skills-cards{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+  margin: 20px;
+}
+
+#s-skills .grid-layout #skills #skills-cards article{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 20%;
+  min-height: 150px;
+  border: 1px solid #1f1f1f;
+  border-radius: 4px;
+}
+
+#s-skills .grid-layout #skills #skills-cards article img{
+  max-width: fit-content;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+#s-skills .grid-layout #skills #skills-cards article h4{
+ margin-top:20px;
+ text-align: center;
+}
+
+.conhecimentos{
+  width: 100%;
+  color: #9ca3af;
+  text-align: center;
+}
+
+.conhecimentos h2{
+  color: #ffa500;
+  padding: 5px;
+  margin-bottom: 50px;
+}
+/* Fim section conhecimentos */
+
+/* Estilos footer com formulário */
+footer {
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  background-color: #151515;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form .name-email-row{
+  display: flex;
+  width: 100%;
+  gap: 10px;
+}
+
+.contact-form input{
+  padding: 3px;
+  border-radius: 5px;
+  width:300px;
+}
+
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+.contact-form label[for='mensagem'] {
+  margin-top: 25px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.contact-form label[for='nome']{
+  margin:5px 0px 0px 0px;
+}
+
+.contact-form label[for='email']{
+  margin:5px 0px 0px 0px;
+  margin-left: 30px;
+}
+
+footer .grid-layout h2 {
+  color: orange;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.contact-form button {
+  background-color: orange;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  float: right;
+  margin-bottom: 20px;
+}
+/* Fim footer */
