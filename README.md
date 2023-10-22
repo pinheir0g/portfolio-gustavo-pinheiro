@@ -11,3 +11,5 @@ Esse projeto é a criação de um portfólio pessoal para o trabalho da discipli
 5. Não poderá utilizar Wix, WordPress e frameworks desse tipo. Deve ser
 desenvolvido com linguagem pura (somente HTML e CSS).
 6. Ao criar o seu usuário no servidor de hospedagem gratuito, utilize seu nome como parte do domínio.
+
+OBS: Formulário de contato apenas visual, ainda não contém funcionalidade.
